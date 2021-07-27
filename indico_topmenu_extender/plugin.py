@@ -5,7 +5,6 @@ from indico.web.menu import TopMenuItem
 
 
 
-from __future__ import unicode_literals
 
 from flask_pluginengine import render_plugin_template
 from wtforms.fields.core import StringField
@@ -19,9 +18,6 @@ from indico.web.views import WPBase
 from indico.web.forms.fields import MultipleItemsField, OverrideMultipleItemsField, PrincipalListField
 
 
-from indico_ursh import _
-from indico_ursh.blueprint import blueprint
-from indico_ursh.util import is_configured
 
 
 MENU_FIELDS= [{'id': 'menu_key', 'caption': _("Menu key"), 'required': True},
