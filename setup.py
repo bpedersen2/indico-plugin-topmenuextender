@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
-    use_scm_version={"write_to":"indico_topmenu_extener/version.py",
+    use_scm_version={"write_to":"indico_topmenu_extender/version.py",
                      "local_scheme":"node-and-timestamp"},
     setup_requires = ["setuptools>=39", "setuptools_scm[toml]>=3.4"],
     install_requires=[
