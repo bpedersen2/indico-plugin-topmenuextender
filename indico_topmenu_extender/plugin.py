@@ -4,8 +4,6 @@ from indico.web.menu import TopMenuItem
 
 
 
-class 
-
 
 from __future__ import unicode_literals
 
