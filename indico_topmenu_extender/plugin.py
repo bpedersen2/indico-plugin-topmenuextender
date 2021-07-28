@@ -32,4 +32,4 @@ class TopMenuExtenderPlugin(IndicoPlugin):
 
     def _extend_top_menu(self, sender, **kwargs):
         for entry in  self.settings.get('top_menu_entries'):
-            yield TopMenuItem(entry['menu_key'], entry['menu_title'], entry['menu_url'], weight=entry.get('menu_weight', 95))
+            yield TopMenuItem(entry['menu_key'], entry['menu_title'], entry['menu_url'], weight=int(entry.get('menu_weight', 95)))
