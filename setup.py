@@ -11,7 +11,7 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name='indico-topmenu-extender',
+    name='indico-plugin-topmenuextender',
     license='MIT',
     author='MLZ indico team',
     author_email='bjoern.pedersen@frm2.tum.de',
