@@ -9,7 +9,6 @@ MENU_FIELDS= [{'id': 'menu_key', 'caption': _("Menu key"), 'required': True},
               {'id': 'menu_title', 'caption': _("Menu title"), 'required': True},
               {'id': 'menu_url', 'caption': _("Menu url"), 'required': True},
               {'id': 'menu_weight', 'caption': _("Menu weight"), 'required': False},
-              {'id': 'menu_key', 'caption': _("Menu key"), 'required': True},
               ]
 
 class SettingsForm(IndicoForm):
